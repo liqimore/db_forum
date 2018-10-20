@@ -4,9 +4,10 @@
 <html lang="en">
 <head>
     <meta name="Content-Type"  content="text/html;charset=utf-8">
-    <meta name="keywords" content="Genesis,论坛,社区,程序员">
-    <title>Genesis - 一个分享创造的开发者社区  </title>
+    <meta name="keywords" content="Codefog,论坛,社区,程序员">
+    <title>Codefog - 数据库设计 </title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/front-common.css" rel="stylesheet">
     <script src="/js/jquery-3.2.1.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <style>
@@ -16,7 +17,7 @@
             font-size: 14px;
             color: #525252;
             font-family: NotoSansHans-Regular,AvenirNext-Regular,arial,Hiragino Sans GB,"Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
-            background: #f0f2f5;
+            /*background: url("/img/bg.png");*/
         }
         .footer {
             background-color: #fff;
@@ -69,7 +70,7 @@
             <div style="width: 89%;float: left">
                 <a href="/t/${topic.id}">${topic.title}</a><br/>
                 <div>
-                    <a><span class="label label-default" >${topic.tab.tabName}</span></a>&nbsp;&nbsp;&nbsp;
+                    <a><span class="label label-default" style="color: rgba(54,58,65,0.86);background-color: #fcd692">${topic.tab.tabName}</span></a>&nbsp;&nbsp;&nbsp;
                     <a href="/member/${topic.user.username}"><span ><strong>${topic.user.username}</strong></span></a>&nbsp;&nbsp;&nbsp;
                     <small class="text-muted">${topic.localCreateTime}</small>
                 </div>

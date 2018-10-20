@@ -8,7 +8,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <script src="/js/jquery-3.2.1.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-    <title>${topic.title} - Genesis </title>
+    <title>${topic.title} - Codefog </title>
 </head>
 <body>
 <!-- 引入header文件 -->
@@ -18,7 +18,7 @@
     <div class="panel-heading" style="background-color: white">
         <div>
             <div class="panel-heading" style="background-color: white">
-                <a href="/">Genesis</a> › 主题
+                <a href="/">Codefog</a> › 主题
             </div>
             <h3>${topic.title}</h3><br/>
             <div>

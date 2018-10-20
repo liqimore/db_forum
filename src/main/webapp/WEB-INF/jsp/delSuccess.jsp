@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>404 Not Find:(</title>
+    <title>删除成功!</title>
     <style>
         ::-moz-selection {
             background: #b3d4fc;
@@ -143,15 +143,14 @@
 </head>
 <body>
 <div class="container">
-    <h1>404 Not Find<span>:(</span></h1>
-    <p>对不起，您访问的页面不存在~</p>
-    <p>请输入正确的地址</p>
-    <p><em id="num">3</em>秒后，自动跳转到上一页</p>
+    <h1>文章删除成功!<span>:(</span></h1>
+    <p><em id="num">3</em>秒后，自动跳转到首页</p>
     <script>
         var i =3;
         function djs() {
             if(i==0){
-                window.history.back();
+                // window.history.back();
+                window.location("/");
             }
             document.getElementById("num").innerText=i--;
             setTimeout("djs()",1000);

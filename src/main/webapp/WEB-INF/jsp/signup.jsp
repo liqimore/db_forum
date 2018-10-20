@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>注册 - Genesis</title>
+    <title>注册 - Codefog</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <script src="/js/jquery-3.2.1.js"></script>
     <script src="/js/bootstrap.min.js"></script>
@@ -15,7 +15,7 @@
             font-size: 14px;
             color: #525252;
             font-family: NotoSansHans-Regular,AvenirNext-Regular,arial,Hiragino Sans GB,"Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
-            background: #f0f2f5;
+            background: url("/img/bg.png");
         }
         .footer {
             background-color: #fff;

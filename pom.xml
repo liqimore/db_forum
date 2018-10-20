@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.withstars</groupId>
-    <artifactId>genesis</artifactId>
+    <artifactId>Codefog</artifactId>
     <version>1.1</version>
     <packaging>war</packaging>
 
@@ -209,7 +209,7 @@
 
     </dependencies>
     <build>
-        <finalName>Genesis</finalName>
+        <finalName>Codefog</finalName>
         <plugins>
             <!-- jetty插件 -->
             <plugin>
